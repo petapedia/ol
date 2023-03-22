@@ -1,7 +1,8 @@
 /**
  * @module ol/structs/RBush
  */
-import RBush_ from 'rbush';
+//import RBush_ from 'rbush';
+import RBush_ from 'https://petapedia.github.io/rbush/index.js';
 import {createOrUpdate, equals} from '../extent.js';
 import {getUid} from '../util.js';
 import {isEmpty} from '../obj.js';
