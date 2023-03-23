@@ -2,7 +2,8 @@
  * @module ol/layer/BaseVector
  */
 import Layer from './Layer.js';
-import RBush from 'rbush';
+//import RBush from 'rbush';
+import RBush from 'https://petapedia.github.io/rbush/index.js';
 import Style, {
   createDefaultStyle,
   toFunction as toStyleFunction,
