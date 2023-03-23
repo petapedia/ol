@@ -1,7 +1,8 @@
 /**
  * @module ol/render/webgl/utils
  */
-import earcut from 'earcut';
+//import earcut from 'earcut';
+import earcut from 'https://petapedia.github.io/earcut/src/earcut.js';
 import {apply as applyTransform} from '../../transform.js';
 import {clamp} from '../../math.js';
 
