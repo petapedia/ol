@@ -6,7 +6,9 @@ import EventType from '../events/EventType.js';
 import MVT from '../format/MVT.js';
 import VectorTileLayer from '../layer/VectorTile.js';
 import VectorTileSource from '../source/VectorTile.js';
-import {applyBackground, applyStyle} from 'ol-mapbox-style';
+//import {applyBackground, applyStyle} from 'ol-mapbox-style';
+import {applyBackground, applyStyle} from 'https://petapedia.github.io/ol-mapbox-style/src/index.js';
+
 
 /**
  * @classdesc
